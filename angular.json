@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "TDD"
+    }
+  },
+  "defaultProject": "TDD",
+  "cli": {
+    "analytics": false
+  }
 }
