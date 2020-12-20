@@ -15,15 +15,15 @@ describe('RomanNumeralsService', () => {
   });
 
   it('There are no negative Roman numerals', () => {
-    expect(service.convertToRomanNumeral(-1)).toEqual('error');
+    expect(service.convertToRomanNumeral(-1)).toEqual('Please enter a positive integer');
   });
 
   it('There are no decimals Roman numerals', () => {
-    expect(service.convertToRomanNumeral(-1.5)).toEqual('error');
+    expect(service.convertToRomanNumeral(-1.5)).toEqual('Please enter a positive integer');
   });
 
   it('The number 0 has no representation in Roman numerals', () => {
-    expect(service.convertToRomanNumeral(0)).toEqual('error');
+    expect(service.convertToRomanNumeral(0)).toEqual('Please enter a positive integer');
   });
 
   it('The number 1 equals I in Roman numerals', () => {
